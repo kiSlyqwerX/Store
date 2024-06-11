@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/prod-card.css">
+	<link rel="stylesheet" href="../style/allproducts.css">
+	<link rel="stylesheet" href="../style/basket.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<a class="header__logo">ГАЛОШІ.UA</a>
+				<nav class="row">
+					<a href="../index.html">Головна</a>
+					<a href="./oldproducts.html">Всі товари</a>
+					<a href="./cart.html">Корзина</a>
+				</nav>
+				<div class="burgers">
+					<figure id="burger-1"></figure>
+					<figure id="burger-2"></figure>
+					<figure id="burger-3"></figure>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1>Корзина</h1>
+			<div class="products">
+
+			</div>
+			<div class="row basket__nav">
+				<h2 class="full-price-title">Загальна сумма <span class="full-price">0</span> грн</h2>
+				<button class="checkout">Оформити замовлення</button>
+			</div>
+	</main>
+
+	<div class="modal">
+		<div class="modal__window">
+			<h2>Оформлення замовлення</h2>
+			<button class="modal__window-cross">x</button>
+			<form action="">
+				<input type="text" placeholder="Введіть імя та прізвище отримувача" required>
+				<input type="text" placeholder="Введіть номер телефону отримувача" required>
+				<input type="text" placeholder="Введіть адрес доставки" required>
+				<p class="modal__window-message"></p>
+				<button class="modal__window-checkout">Здійснити покупку</button>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="text">
+				<h2>Всі права захищені</h2>
+			</div>
+
+			<div class="img">
+				<img src="/img/tiktok-logo-logo-svgrepo-com 1.png" alt="">
+				<img src="/img/Group 15.png" alt="">
+				<img src="/img/facebook.png" alt="">
+			</div>
+		</div>
+	</footer>
+
+	<script type="module" src="../script/busket.js"></script>
+
+</body>
+
+</html>

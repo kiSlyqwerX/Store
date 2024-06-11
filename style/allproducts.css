@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+     padding: 70px 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.full-price-title {
+    color: aliceblue;
+}
+
+.full-price {
+    color:aliceblue ;
+}

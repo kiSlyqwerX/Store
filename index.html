@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./style/home.css">
+	<link rel="stylesheet" href="./style/prod-card.css">
+	<title>Галоші store</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="root">
+		<header>
+			<div class="container">
+				<div class="row">
+					<a class="header__logo">ГАЛОШІ.UA</a>
+					<nav class="row">
+						<a href="./index.html">Головна</a>
+						<a href="./pages/oldproducts.html">Всі товари</a>
+						<a href="./pages/cart.html">Корзина</a>
+					</nav>
+					<div class="burgers">
+						<figure id="burger-1"></figure>
+						<figure id="burger-2"></figure>
+						<figure id="burger-3"></figure>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="slider__item swiper-slide">
+							<img src="./img/icon/image 1.png" alt="">
+						</div>
+						<div class="slider__item swiper-slide">
+							<img src="./img/3d7269b6d876c96e2633de8fcd823b05478c8729.jpg" alt="">
+						</div>
+						<div class="slider__item swiper-slide">
+							<img src="./img/BUTY-ADIDAS-CAMPUS-00S-SHOES-IG1230-R-38-2-3.jpg" alt="">
+						</div>
+						<div class="slider__item swiper-slide">
+							<img src="./img/c55ce065432081.5d17c1704ce02.jpg" alt="">
+						</div>
+						<div class="slider__item swiper-slide">
+							<img src="./img/icon/collectible-sneaker-pop-up-museum-nathoo-251019.avif" alt="">
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="sliders">
+				<div class="container">
+					<div class="sliders-wrapper">
+						<h2>Хіти продажів</h2>
+						<div class="swiper">
+							<div id="hits-products" class="swiper-wrapper">
+
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+
+
+					<div class="sliders-wrapper">
+						<h2>Акційні пропозиції</h2>
+						<div class="swiper">
+							<div id="discounts-products" class="swiper-wrapper">
+
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+
+
+					<div class="sliders-wrapper">
+						<h2>Аксесуари</h2>
+						<div class="swiper">
+							<div id="accessories-products" class="swiper-wrapper">
+
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="feedback">
+				<div class="container">
+					<div class="row">
+						<h2>Відгуки про нас</h2>
+						<button class="feedback__add">Добавити відгук</button>
+					</div>
+
+					<div class="feedback__list">
+
+
+
+					</div>
+				</div>
+
+				<div class="feedback__modal">
+					<div class="feedback__window">
+						<h2>Залиш відгук про нас</h2>
+
+						<form>
+							<input required placeholder="Напишіть своє імя" type="text">
+							<textarea required placeholder="Напишіть коментар" cols="30" rows="5"></textarea>
+							<div class="row">
+								<button class="feedback__modal-close">Закрити</button>
+								<button class="feedback-send">Залишити відгук</button>
+							</div>
+						</form>
+
+					</div>
+				</div>
+
+			</section>
+		</main>
+
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="text">
+				<h2>Всі права захищені</h2>
+			</div>
+
+			<div class="img">
+				<img src="/img/tiktok-logo-logo-svgrepo-com 1.png" alt="">
+				<img src="/img/Group 15.png" alt="">
+				<img src="/img/facebook.png" alt="">
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	<script>
+		var swiper = new Swiper(".swiper", {
+			slidesPerView: "auto",
+			spaceBetween: 20,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		});
+	</script>
+
+	<script src="./script/script.js" type="module"></script>
+</body>
+
+</html>
